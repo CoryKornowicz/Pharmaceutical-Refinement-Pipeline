@@ -18,6 +18,9 @@ Currently utilizes *AutoGrow 3.1.3* as the backbone for the algorithm; however, 
   - [x] Fixed redundency bug in removing ligands
   - [WIP] Add optional sequences of multiple docking suites (LeDock & AutoDock Vina)
   - [WIP] Add ADME filters in conjucntion with simple pharmacological rules
+  - [WIP] Add support for adding manual filters for ligand refinement
+  - [WIP] Add support for multiple docking screenings before proceeding to next generation 
+  - [WIP] Add support for protein screening to auto-identify the docking pocket
 
 *Possible Py4J support to add callback server interopability coming*
 
