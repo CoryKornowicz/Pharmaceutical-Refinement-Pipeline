@@ -17,11 +17,19 @@ Currently utilizes *AutoGrow 3.1.3* as the backbone for the algorithm; however, 
   - [x] Removed MGLTools dependency (for 64-bit)
   - [x] Fixed redundency bug in removing ligands
   - [WIP] Add optional sequences of multiple docking suites (LeDock & AutoDock Vina)
+    - [x] AutoDock Vina is already installed
+    - [WIP] Congifure LeDock
   - [WIP] Add ADME filters in conjucntion with simple pharmacological rules
+    - [x] BBB Filter
+    - [x] CYP3A4 Filter 
+    - [WIP] Additional Filters
   - [WIP] Add support for adding manual filters for ligand refinement
+    - [WIP] Generating input for the filters from drug candidates
+    - [x] Generates fingerprints from mol and smiles formats
+    - [x] Generates features for ligands 
   - [WIP] Add support for multiple docking screenings before proceeding to next generation 
   - [x] Fpocket is used to identify potential pockets
-  - [WIP] Method to calculate grid box coordinates of pocket
+    - [x] Method to calculate grid box coordinates of pocket
 
 *Possible Py4J support to add callback server interopability coming*
 
