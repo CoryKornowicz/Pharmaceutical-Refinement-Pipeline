@@ -33,6 +33,29 @@ Currently utilizes *AutoGrow 3.1.3* as the backbone for the algorithm; however, 
   - [WIP] Building custom fragmentation library from starting compounds
 
 
+Proposed new sequence of events:
+
+__Initial Loading__
+  - Generate custom fragments from starting compounds
+  - Define best location for ligand-protein pocket
+  - Setup extra files
+
+
+__Per Generation__
+  - While not at capacity 
+    - Generate Mutants 
+    - Generate Crossovers 
+    - Filter for Duplicates
+    - Filter for Drug-likeliness 
+  
+  
+  -  Dock with AutoDock Vina and or LeDock. Either take one result a piece or succession of results and average the scores together 
+  
+  - Filter by #n top results
+  
+  - Enter next generation
+
+
 *Possible Py4J support to add callback server interopability coming*
 
 
