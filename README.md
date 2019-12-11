@@ -30,6 +30,8 @@ Currently utilizes *AutoGrow 3.1.3* as the backbone for the algorithm; however, 
   - [WIP] Add support for multiple docking screenings before proceeding to next generation 
   - [x] Fpocket is used to identify potential pockets
     - [x] Method to calculate grid box coordinates of pocket
+  - [WIP] Building custom fragmentation library from starting compounds
+
 
 *Possible Py4J support to add callback server interopability coming*
 
