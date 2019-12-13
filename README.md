@@ -19,7 +19,7 @@ Currently utilizes *AutoGrow 3.1.3* as the backbone for the algorithm; however, 
   - [WIP] Add optional sequences of multiple docking suites (LeDock & AutoDock Vina)
     - [x] AutoDock Vina is already installed
     - [WIP] Congifure LeDock
-  - [x] Add ADME filters in conjucntion with simple pharmacological rules
+  - [x] Add ADMET filters in conjucntion with simple pharmacological rules
     - [x] BBB Filter
     - [x] CYP3A4 Filter 
     - [x] Additional Filters
