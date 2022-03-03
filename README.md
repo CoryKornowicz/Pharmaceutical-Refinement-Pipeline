@@ -64,3 +64,6 @@ __Per Generation__
 
 
 **DISCLAIMER**: I am not affiliated with the development team at AutoGrow. I am thankful that they keep their software open-sourced to allow for projects like this. However, on my end, I will keep most of software I develop closed-source to protect my research group's intellectual property rights. If there is an inquistion as to where the project is currectly at, please reach out to me. 
+
+**Update 12/15/2021**:AutoGrow 4 has matured far past this project, and thus this repo will stand as an archive for reference, but will not see anymore updates.
+
